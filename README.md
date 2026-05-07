@@ -6,11 +6,12 @@ A collection of unique and frequently used UI components, logic, and patterns fo
 
 - **[ui/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/)**: UI related documentation and components.
   - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: Layout patterns.
-    - **[Edge-to-Edge](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)**
-    - **[Progressive Blur](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/progressive-blur.md)**
-    - **[Splash Screen](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/splash.md)**
-    - **[Welcome & Onboarding](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/welcome.md)**
-  - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable UI components.
+    - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: High-level screen structures.
+    - [Edge-to-Edge Guide](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)
+    - [Splash Screen Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/splash.md)
+    - [Welcome & Onboarding](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/welcome.md)
+  - **[Theming & AMOLED](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme.md)**
+  - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable Material 3 components.
     - **[Containers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/)**: Layout wrappers.
       - [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md)
     - **[Cards & Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/)**: List items and feature cards.

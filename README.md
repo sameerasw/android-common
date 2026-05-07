@@ -45,6 +45,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Shell Command Execution](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/shell-cmd.md)**
     - **[WearOS Communication](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/wearos.md)**
     - **[Backup & Restore](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/backup-restore.md)**
+    - **[Cross-App Communication](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/cross-app-communication.md)**
 - **[wearos/](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/)**: Specialized WearOS components.
   - [Glanceable Tiles](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/wearos-tile.md)
   - [System Complications](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/wearos-complication.md)

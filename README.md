@@ -9,6 +9,9 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Edge-to-Edge](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)**
     - **[Progressive Blur](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/progressive-blur.md)**
   - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable UI components.
+    - **[Toolbars](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/)**: Variants of top and bottom bars.
+      - [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md)
+      - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)
   - **[theme/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme/)**: Design system and theming guides.
 - **[logic/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/)**: Business logic and utility patterns.
   - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.

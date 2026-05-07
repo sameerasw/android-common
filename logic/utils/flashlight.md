@@ -36,13 +36,12 @@ The flashlight pulse (for notifications) is automatically suppressed if the prox
 
 ## 3. Live Control Notifications
 
-When the flashlight is active, a persistent "Control Center" notification appears.
+When the flashlight is active, the app utilizes the **[Live Update Notification](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/live-updates.md)** pattern to provide real-time feedback and control.
 
-### Android 15/16 Features
-On the latest Android versions, the app utilizes advanced notification styles:
-- **`ProgressStyle`**: Displays a visual brightness bar directly in the notification shade.
-- **`setRequestPromotedOngoing`**: Ensures the notification stays prioritized at the top of the "Ongoing" section.
-- **`setShortCriticalText`**: Shows the percentage (e.g., "80%") in the status bar/lock screen chip.
+### Key Features
+- **Visual Progress**: Uses `Notification.ProgressStyle` (Android 16+) to show a brightness bar.
+- **Status Chips**: Uses `setShortCriticalText` to display the percentage (e.g., "80%") in the status bar.
+- **Priority**: Uses `setRequestPromotedOngoing` to keep the controls at the top of the shade.
 
 ### Quick Actions
 - **Adjust**: `+` and `-` buttons to step through brightness levels.

@@ -19,6 +19,8 @@ A collection of unique and frequently used UI components, logic, and patterns fo
       - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)
   - **[theme/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme/)**: Design system and theming guides.
 - **[logic/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/)**: Business logic and utility patterns.
+  - **[search/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/search/)**: Implementation of global search.
+    - [Deep Search Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/search/deep-search.md)
   - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.
     - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.

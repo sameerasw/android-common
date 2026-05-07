@@ -2,6 +2,8 @@
 
 Implementing dynamic, context-aware shortcuts (App Long-Press Menu) to provide quick access to key features or background actions.
 
+<img width="340" height="518" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  19 49@2x" src="https://github.com/user-attachments/assets/c9db09eb-a9c3-4098-8f02-d50d42e64bb0" />
+
 ## 1. Context-Aware Dynamic Shortcuts
 
 Unlike static shortcuts defined in XML, dynamic shortcuts can be added, updated, or removed programmatically based on the app's state (e.g., whether a device is connected).

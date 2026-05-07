@@ -6,6 +6,8 @@ A collection of standardized list items designed to be used inside the [Rounded 
 
 The workhorse for settings screens. It supports a leading icon, title, optional description, and a trailing switch.
 
+<img width="610" height="256" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  16 44@2x" src="https://github.com/user-attachments/assets/890b6dae-1239-4401-9e1b-91c012573146" />
+
 ### Key Features
 - **Toggle Mode**: Show/Hide the trailing switch with `showToggle`.
 - **Haptic Feedback**: Integrated `HapticUtil.performVirtualKeyHaptic` on interaction.
@@ -26,6 +28,8 @@ IconToggleItem(
 ## 2. Feature Card (`FeatureCard`)
 
 A more prominent variant often used for main feature toggles. It features **Colorful Pastel Icons** and a more complex menu system.
+
+<img width="608" height="438" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  17 14@2x" src="https://github.com/user-attachments/assets/ee577a0b-e11b-4ff6-ad22-a4933a89303f" />
 
 ### Key Features
 - **Pastel Icons**: Automatically generates a soft background color and vibrant icon tint based on the title.

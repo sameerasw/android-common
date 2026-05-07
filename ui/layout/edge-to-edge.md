@@ -2,6 +2,8 @@
 
 This guide covers the implementation of adaptive edge-to-edge support in Jetpack Compose, ensuring the app content draws behind system bars while handling insets correctly.
 
+<img width="1672" height="266" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  21 18@2x" src="https://github.com/user-attachments/assets/ac631b33-c97c-4cbc-9f7a-fb21199b7890" />
+
 ## Prerequisites
 
 - Project **MUST** use Android Jetpack Compose.

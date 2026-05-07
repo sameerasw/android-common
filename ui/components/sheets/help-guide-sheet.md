@@ -2,6 +2,9 @@
 
 A specialized bottom sheet used for long-form instructions, tutorials, and support links. It features **Expandable Sections** to keep the interface clean while offering deep information.
 
+<img width="996" height="1078" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  13 27@2x" src="https://github.com/user-attachments/assets/6fdab110-76d2-4d19-87a5-13ab64c1e535" />
+
+
 ## 1. Expandable Sections Pattern
 
 We use a combination of `Card` and `AnimatedVisibility` to create smooth expansion animations.

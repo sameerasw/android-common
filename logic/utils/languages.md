@@ -50,7 +50,7 @@ A custom picker component using Material 3 `ExposedDropdownMenuBox`.
 ### Key Design Choices
 - **Native Names**: Always display the native name (e.g., "සිංහල") so users can identify their language even if they don't understand the current app language.
 - **Haptic Feedback**: Triggers a virtual key haptic on selection.
-- **ListItem Integration**: Designed to fit perfectly inside a [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md).
+- **ListItem Integration**: Designed to fit perfectly inside a [Rounded Card Container](../containers/rounded-card-container.md).
 
 ```kotlin
 @Composable

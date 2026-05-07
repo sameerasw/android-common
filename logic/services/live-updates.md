@@ -75,7 +75,7 @@ serviceScope.launch {
 Since these APIs are extremely new (often Alpha/Beta), always use reflection or `Bundle` extras to maintain compatibility across different build environments.
 
 ## 5. Usage Examples
-- **[Flashlight & Brightness](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/flashlight.md)**: Uses `ProgressStyle` for brightness level and `shortCriticalText` for percentage.
+- **[Flashlight & Brightness](../utils/flashlight.md)**: Uses `ProgressStyle` for brightness level and `shortCriticalText` for percentage.
 - **Location Tracker**: Uses `ProgressStyle` for distance and `shortCriticalText` for ETA.
 - **Caffeinate**: Uses `shortCriticalText` to show remaining "awake" time.
 

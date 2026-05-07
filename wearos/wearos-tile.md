@@ -62,3 +62,6 @@ val openAppIntent = ActionBuilders.LaunchAction.Builder()
 - **Resource Versioning**: Always update the `RESOURCES_VERSION` string when changing image assets to ensure the system flushes the old cache.
 - **Responsive Layouts**: Use `setResponsiveContentInsetEnabled(true)` to automatically adjust padding based on the device's chin or bezel.
 - **Preview Support**: Implement `@Preview` with `TilePreviewData` to iterate quickly in the IDE.
+
+## See Also
+- **[WearOS Communication Logic](../logic/utils/wearos.md)**: Details on how tiles fetch data from the phone.

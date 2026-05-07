@@ -73,6 +73,7 @@ To ensure the app works for both Root and Shizuku users, we use `ShellUtils` as 
 fun toggleAirplaneMode(enabled: Boolean) {
     val state = if (enabled) 1 else 0
     // ShellUtils automatically detects if it should use Root or Shizuku
+    // See [Shell Command Execution](../logic/utils/shell-cmd.md) for details on the execution logic
     ShellUtils.runCommand(context, "settings put global airplane_mode_on $state")
 }
 ```

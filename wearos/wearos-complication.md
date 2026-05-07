@@ -58,3 +58,6 @@ private fun getTapAction(): PendingIntent {
 - **Preview Data**: Always override `getPreviewData()` to provide sensible defaults for the watch face picker UI.
 - **Update Frequency**: Complications are updated by the system; ensure your data is ready in `SharedPreferences` so the update is instantaneous when requested.
 - **Monochromatic Requirement**: Ensure custom bitmaps used for `MonochromaticImage` are purely white with an alpha channel; the system will tint them automatically.
+
+## See Also
+- **[WearOS Communication Logic](../logic/utils/wearos.md)**: Details on how data is synced from the phone to the watch.

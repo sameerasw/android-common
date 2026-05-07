@@ -67,6 +67,6 @@ onCheckedChange = {
 ```
 
 ## 5. Usage Examples
-- **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**: Selecting between "Subtle", "Click", and "Double".
+- **[Haptic Feedback](../../logic/utils/haptics.md)**: Selecting between "Subtle", "Click", and "Double".
 - **Language Picker**: Toggling between system default and custom locales.
 - **Refresh Rate**: Choosing between "Fixed" and "Range" modes.

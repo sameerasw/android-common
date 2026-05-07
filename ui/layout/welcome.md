@@ -20,11 +20,12 @@ enum class OnboardingStep {
 1.  **Welcome**: App branding and primary language selection.
 2.  **Acknowledgement**: Critical disclaimers regarding system modifications (Shizuku/Root) and crash reporting toggles.
 3.  **Preferences**: Theme and basic app configuration.
-4.  **Feature Introduction**: High-level overview using educational GIFs and [Help/Guides](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/help-guide-sheet.md).
+4.  **Feature Introduction**: High-level overview using educational GIFs and [Help/Guides](../components/sheets/help-guide-sheet.md).
+5.  **Finalize**: Marks the onboarding as complete and transitions to the main app.
 
-## 2. Interactive Welcome Step
+## 2. Release Notes Screen
 
-The first screen features a spinning app logo that serves as both a brand element and an interactive toy.
+A specialized screen shown only after an app update. It fetches and renders the latest [GitHub Release Notes](../../logic/services/updates.md).
 
 ### Logo Easter Egg
 Using `pointerInput` and `detectDragGestures`, users can manually spin the logo.
@@ -42,14 +43,7 @@ detectDragGestures(
 )
 ```
 
-## 3. "What's New" Integration
-
-The onboarding UI is reused to show major version updates. When `isWhatsNewFlow = true` is passed to the `WelcomeScreen`:
-- The title changes to "Welcome Back".
-- It skips the legal acknowledgments and jumps straight to the **What's New** step.
-- It fetches and renders the latest [GitHub Release Notes](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/updates.md).
-
-## 4. State Persistence & Resets
+## 3. State Persistence & Resets
 
 ### Completion Flag
 Once the user clicks "Let me in", the app saves a flag in the `SettingsRepository`.
@@ -60,9 +54,9 @@ fun onFinish() {
 ```
 
 ### Developer Reset
-For debugging or testing, a "Reset onboarding" button is available in [Developer Options](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/developer-mode.md). This clears the completion flag and forces the wizard to appear on the next app launch.
+For debugging or testing, a "Reset onboarding" button is available in [Developer Options](../../logic/utils/developer-mode.md). This clears the completion flag and forces the wizard to appear on the next app launch.
 
-## 5. Implementation Tips
-- **Haptics**: Navigation buttons use standard virtual key haptics, while the logo uses custom micro-haptics for a "mechanical dial" feel.
-- **GIFs**: Use Coil with `ImageDecoderDecoder` to render educational animations smoothly.
-- **Language First**: Always place the [Language Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/languages.md) on the very first screen so the rest of the wizard is readable.
+## 4. Best Practices
+- **Skip Button**: Always provide a skip button (except on the very first screen) to respect the user's time.
+- **Language First**: Always place the [Language Picker](../../logic/utils/languages.md) on the very first screen so the rest of the wizard is readable.
+- **Visual Continuity**: Use the same background gradients and rounded corner radius as the main app's card system.

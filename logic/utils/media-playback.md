@@ -36,7 +36,7 @@ Extracting high-resolution Bitmaps from system services is expensive. We use a c
 
 ## 3. Deep Interaction: The "Like" Heuristics
 
-Different apps implement the "Like" button differently. To support "Like" globally (e.g., via a [Quick Settings Tile](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/qs-tiles.md) or [Ambient Glance](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/accessibility-overlays.md)), we use three layers of detection:
+Different apps implement the "Like" button differently. To support "Like" globally (e.g., via a [Quick Settings Tile](../services/qs-tiles.md) or [Ambient Glance](../../accessibility/accessibility-overlays.md)), we use three layers of detection:
 
 ### Layer 1: Native Rating API
 Checking if the app supports the standard `METADATA_KEY_USER_RATING`.

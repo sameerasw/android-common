@@ -73,3 +73,8 @@ Maintain a consistent set of paths between both projects:
 - `/request_device_info_sync`: Watch requesting a fresh update.
 - `/toggle_flashlight`: Remote command.
 - `/set_flashlight_intensity`: Remote command with payload (byte array).
+
+## See Also
+- **[Glanceable Tiles](../../wearos/wearos-tile.md)**: Displaying synced data on the watch face.
+- **[System Complications](../../wearos/wearos-complication.md)**: Modular data providers for WearOS.
+- **[Enhanced Time View](../../wearos/wearos-time.md)**: Adding phone status to the watch clock.

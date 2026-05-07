@@ -10,7 +10,7 @@ A highly adaptive and animated floating bottom toolbar designed for modern Jetpa
 - **Experimental M3 Expressive**: Uses `HorizontalFloatingToolbar` for a premium feel.
 - **Badge Support**: Built-in red dot badge for notification/update awareness.
 - **Haptic Integration**: Native haptic feedback on interaction.
-- **[Swipe Navigation Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/swipe-navigation.md)**: Bidirectional synchronization with `HorizontalPager`.
+- **[Swipe Navigation Integration](../../layout/swipe-navigation.md)**: Bidirectional synchronization with `HorizontalPager`.
 
 ## Implementation
 
@@ -176,7 +176,7 @@ fun EssentialsFloatingToolbar(
 ## Usage Example
 
 ### Swipe-Synced Tabs
-When used with a [Swipe Navigation Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/swipe-navigation.md), the `selectedIndex` should be driven by the `pagerState.currentPage`.
+When used with a [Swipe Navigation Pattern](../../layout/swipe-navigation.md), the `selectedIndex` should be driven by the `pagerState.currentPage`.
 
 ```kotlin
 val pagerState = rememberPagerState(pageCount = { 3 })

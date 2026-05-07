@@ -4,7 +4,7 @@ A hidden diagnostic and power-user state that enables advanced configuration, de
 
 ## 1. Activation Pattern
 
-Developer Mode is activated via a **Long-Press** on the developer's avatar in the [About Section](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/about.md).
+Developer Mode is activated via a **Long-Press** on the developer's avatar in the [About Section](../../ui/components/about.md).
 
 ### Flow
 1.  User performs a long-press (e.g., 500ms+).

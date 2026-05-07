@@ -32,7 +32,7 @@ fun RoundedCardContainer(
 
 ## Usage
 
-The `RoundedCardContainer` is most effective when used to wrap multiple [List Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md).
+The `RoundedCardContainer` is most effective when used to wrap multiple [List Items](../cards/list-items.md).
 
 ```kotlin
 RoundedCardContainer {

@@ -62,6 +62,6 @@ fun isServiceActive(serviceName: String): Boolean {
 ## 4. Implementation Tips
 
 - **Background Execution**: Shell commands involve IPC (Inter-Process Communication) and can block the main thread. Always wrap them in `Dispatchers.IO`.
-- **User Preference**: Always provide a "Use Root" toggle in settings. If disabled, default to [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md).
+- **User Preference**: Always provide a "Use Root" toggle in settings. If disabled, default to [Shizuku Integration](../../permissions/shizuku.md).
 - **Escape Commands**: Be careful with command strings. If a package name or coordinate is dynamic, ensure it's properly sanitized to prevent injection.
 - **Fire and Forget**: For animations like ripples, use a fire-and-forget approach to avoid waiting for the process to terminate.

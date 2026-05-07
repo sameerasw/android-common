@@ -36,7 +36,7 @@ The flashlight pulse (for notifications) is automatically suppressed if the prox
 
 ## 3. Live Control Notifications
 
-When the flashlight is active, the app utilizes the **[Live Update Notification](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/live-updates.md)** pattern to provide real-time feedback and control.
+When the flashlight is active, the app utilizes the **[Live Update Notification](../services/live-updates.md)** pattern to provide real-time feedback and control.
 
 ### Key Features
 - **Visual Progress**: Uses `Notification.ProgressStyle` (Android 16+) to show a brightness bar.

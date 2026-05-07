@@ -1,6 +1,6 @@
 # List Item Variants
 
-A collection of standardized list items designed to be used inside the [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md). These components handle haptic feedback, adaptive layouts, and consistent Material 3 styling.
+A collection of standardized list items designed to be used inside the [Rounded Card Container](../containers/rounded-card-container.md). These components handle haptic feedback, adaptive layouts, and consistent Material 3 styling.
 
 ## 1. Icon Toggle Item (`IconToggleItem`)
 

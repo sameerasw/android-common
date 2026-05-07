@@ -55,7 +55,7 @@ if (isAccessibilityServiceEnabled()) {
 
 ## 3. Native System Ripples
 
-Instead of drawing custom views, you can trigger native Android animations (like the charging ripple) using shell commands via [Shizuku/Root](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md).
+Instead of drawing custom views, you can trigger native Android animations (like the charging ripple) using shell commands via [Shizuku/Root](../../permissions/shizuku.md).
 
 ```kotlin
 // Charging ripple from the center

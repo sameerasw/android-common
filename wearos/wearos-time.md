@@ -26,7 +26,7 @@ val showDetails by remember(scrollState) {
 
 ## 3. Data Synchronization
 
-The view observes `SharedPreferences` changes to update the status in real-time as data arrives from the [WearOS Communication Bridge](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/wearos.md).
+The view observes `SharedPreferences` changes to update the status in real-time as data arrives from the [WearOS Communication Bridge](../logic/utils/wearos.md).
 
 ```kotlin
 DisposableEffect(Unit) {
@@ -56,6 +56,6 @@ TimeText(
 ```
 
 ## 5. Implementation Tips
-- **Color Consistency**: Use a light accent color (derived from the [Theming System](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme.md)) to ensure the status info is readable but secondary to the main time.
+- **Color Consistency**: Use a light accent color (derived from the [Theming System](../ui/theme.md)) to ensure the status info is readable but secondary to the main time.
 - **Adaptive Icons**: Change the battery icon based on charging state (`bolt` icon) and level (`alert` icon for low battery).
 - **Separator logic**: Use `TimeTextDefaults.TextSeparator` to maintain system-standard spacing between the clock and custom content.

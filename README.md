@@ -1,63 +1,62 @@
-# Jetpack Common
+# Jetpack Common - Architecture & Patterns
 
-A collection of unique and frequently used UI components, logic, and patterns for Jetpack Compose development.
+A centralized knowledge base of architectural patterns and reusable UI components used across the Essentials and AirSync projects.
 
-## Project Structure
+## Contents
 
-- **[ui/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/)**: UI related documentation and components.
-  - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: Layout patterns.
-    - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: High-level screen structures.
-    - [Edge-to-Edge Guide](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)
-    - [Splash Screen Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/splash.md)
-    - [Welcome & Onboarding](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/welcome.md)
-    - [Swipe Navigation Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/swipe-navigation.md)
-    - [App Menu Shortcuts](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/app-menu-shortcuts.md)
-  - **[Theming & AMOLED](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme.md)**
-  - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable Material 3 components.
-    - **[Containers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/)**: Layout wrappers.
-      - [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md)
-    - **[Cards & Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/)**: List items and feature cards.
-      - [List Item Variants](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md)
-    - **[About & Community](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/about.md)**: App info and developer credits.
-    - **[Bottom Sheets](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/)**: Modal overlays and guides.
-      - [General Layout](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/general-layout.md)
-      - [Help & Guides](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/help-guide-sheet.md)
-      - [Feature Info](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/feature-info-sheet.md)
-    - **[Pickers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/pickers/)**: Selection components.
-      - [Segmented Picker Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/pickers/picker.md)
-    - **[Toolbars](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/)**: Variants of top and bottom bars.
-      - [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md)
-      - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)
-  - **[theme/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme/)**: Design system and theming guides.
-- **[logic/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/)**: Business logic and utility patterns.
-  - **[search/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/search/)**: Implementation of global search.
-    - [Deep Search Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/search/deep-search.md)
-  - **[services/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/)**: Background services and system integrations.
-    - [Quick Settings Tiles](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/qs-tiles.md)
-    - [Live Update Notifications](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/live-updates.md)
-    - [In-App Updates](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/updates.md)
-  - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.
-    - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
-    - **[Developer Mode](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/developer-mode.md)**
-    - **[Language Switching](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/languages.md)**
-    - **[App Selection Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/app-picker.md)**
-    - **[Flashlight & Brightness](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/flashlight.md)**
-    - **[Media Playback Info](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/media-playback.md)**
-    - **[Shell Command Execution](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/shell-cmd.md)**
-    - **[WearOS Communication](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/wearos.md)**
-    - **[Backup & Restore](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/backup-restore.md)**
-    - **[Cross-App Communication](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/cross-app-communication.md)**
-- **[wearos/](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/)**: Specialized WearOS components.
-  - [Glanceable Tiles](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/wearos-tile.md)
-  - [System Complications](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/wearos-complication.md)
-  - [Enhanced Time View](file:///Users/sameerasandakelum/GIT/jetpack-common/wearos/wearos-time.md)
-- **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
-  - [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md)
-- **[accessibility/](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/)**: System-level interaction patterns.
-  - [Accessibility Overlays](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/accessibility-overlays.md)
-- **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
+- **[ui/](ui/)**: User interface components and layout strategies.
+  - **[layout/](ui/layout/)**: High-level screen structures and animations.
+    - [Edge-to-Edge Guide](ui/layout/edge-to-edge.md)
+    - [Splash Screen Pattern](ui/layout/splash.md)
+    - [Welcome & Onboarding](ui/layout/welcome.md)
+    - [Swipe Navigation Pattern](ui/layout/swipe-navigation.md)
+    - [App Menu Shortcuts](ui/layout/app-menu-shortcuts.md)
+    - [Progressive Blur Implementation](ui/layout/progressive-blur.md)
+  - **[Theming & AMOLED](ui/theme.md)**
+  - **[components/](ui/components/)**: Reusable Material 3 components.
+    - **[Containers](ui/components/containers/)**: Layout wrappers.
+      - [Rounded Card Container](ui/components/containers/rounded-card-container.md)
+    - **[Cards & Items](ui/components/cards/)**: List items and feature cards.
+      - [List Item Variants](ui/components/cards/list-items.md)
+    - **[About & Community](ui/components/about.md)**: App info and developer credits.
+    - **[Bottom Sheets](ui/components/sheets/)**: Modal overlays and guides.
+      - [General Layout](ui/components/sheets/general-layout.md)
+      - [Help & Guides](ui/components/sheets/help-guide-sheet.md)
+      - [Feature Info](ui/components/sheets/feature-info-sheet.md)
+    - **[Pickers](ui/components/pickers/)**: Selection components.
+      - [Segmented Picker Pattern](ui/components/pickers/picker.md)
+    - **[Toolbars](ui/components/toolbar/)**: Variants of top and bottom bars.
+      - [Floating Toolbar](ui/components/toolbar/floating-toolbar.md)
+      - [Top App Bar](ui/components/toolbar/top-app-bar.md)
+  - **[theme/](ui/theme/)**: Design system and theming guides.
+- **[logic/](logic/)**: Business logic and utility patterns.
+  - **[search/](logic/search/)**: Implementation of global search.
+    - [Deep Search Pattern](logic/search/deep-search.md)
+  - **[services/](logic/services/)**: Background services and system integrations.
+    - [Quick Settings Tiles](logic/services/qs-tiles.md)
+    - [Live Update Notifications](logic/services/live-updates.md)
+    - [In-App Updates](logic/services/updates.md)
+  - **[utils/](logic/utils/)**: Common utility functions.
+    - [Haptic Feedback](logic/utils/haptics.md)
+    - [Developer Mode](logic/utils/developer-mode.md)
+    - [Language Switching](logic/utils/languages.md)
+    - [App Selection Picker](logic/utils/app-picker.md)
+    - [Flashlight & Brightness](logic/utils/flashlight.md)
+    - [Media Playback Info](logic/utils/media-playback.md)
+    - [Shell Command Execution](logic/utils/shell-cmd.md)
+    - [WearOS Communication Logic](logic/utils/wearos.md)
+    - [Full Backup & Restore](logic/utils/backup-restore.md)
+    - [Cross-App Communication](logic/utils/cross-app-communication.md)
+- **[wearos/](wearos/)**: Specialized WearOS components.
+  - [Glanceable Tiles](wearos/wearos-tile.md)
+  - [System Complications](wearos/wearos-complication.md)
+  - [Enhanced Time View](wearos/wearos-time.md)
+- **[permissions/](permissions/)**: Permission handling strategies.
+  - [Shizuku Integration](permissions/shizuku.md)
+- **[accessibility/](accessibility/)**: System-level interaction patterns.
+  - [Accessibility Overlays](accessibility/accessibility-overlays.md)
+- **[data/](data/)**: Data persistence and migration patterns.
 
 ## Getting Started
 
-Refer to the specific categories to find implementation details and code snippets.
-My commonly used UI and app design patterns all together
+Refer to the specific categories to find implementation details and code snippets. This repository serves as the source of truth for the Essentials ecosystem design language.

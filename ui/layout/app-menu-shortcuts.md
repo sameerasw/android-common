@@ -78,6 +78,6 @@ Ensure the proxy activity is excluded from recents and has no history to keep th
 ```
 
 ## 5. Implementation Tips
-- **Haptic Confirmation**: Trigger a haptic "tick" when the shortcut activity starts.
+- **Haptic Confirmation**: Trigger a haptic "tick" using the [Haptic Feedback Utility](../../logic/utils/haptics.md) when the shortcut activity starts.
 - **Icon Consistency**: Use the same icons for shortcuts as used in the in-app UI to build mental models.
 - **Max Shortcuts**: Android allows a maximum of 4 dynamic shortcuts at a time; prioritize the most frequent actions.

@@ -4,7 +4,7 @@ A contextual bottom sheet used to explain specific features, their purpose, and 
 
 ## 1. Adaptive Header
 
-The header reuses the **Pastel Icon** pattern from the [Feature Card](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md) to maintain visual continuity.
+The header reuses the **Pastel Icon** pattern from the [Feature Card](../cards/list-items.md) to maintain visual continuity.
 
 ```kotlin
 Row(
@@ -56,7 +56,7 @@ if (feature.permissionKeys.isNotEmpty()) {
 
 ## 3. Usage
 
-This sheet is typically triggered from a "What is this?" or "Help" menu item on a [Feature Card](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md).
+This sheet is typically triggered from a "What is this?" or "Help" menu item on a [Feature Card](../cards/list-items.md).
 
 ```kotlin
 onHelpClick = {

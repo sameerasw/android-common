@@ -26,7 +26,7 @@ HorizontalPager(
 
 ## 2. Pager-Toolbar Synchronization
 
-To keep the UI in sync, the `pagerState.currentPage` is used to drive the active state of the [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md).
+To keep the UI in sync, the `pagerState.currentPage` is used to drive the active state of the [Floating Toolbar](../components/toolbar/floating-toolbar.md).
 
 ### Bidirectional Sync
 - **Swipe -> Toolbar**: The toolbar observes `pagerState.currentPage` to highlight the correct tab.
@@ -46,7 +46,7 @@ LaunchedEffect(pagerState.currentPage) {
 In the `airsync-android` project, we utilize several visual effects to make the swipe feel "integrated":
 
 ### Progressive Blur
-As the user swipes, the top and bottom of the screen can have a progressive blur that stays fixed while the content moves underneath.
+As the user swipes, the top and bottom of the screen can have a [Progressive Blur](progressive-blur.md) that stays fixed while the content moves underneath.
 
 ```kotlin
 HorizontalPager(

@@ -69,7 +69,7 @@ override fun onReceive(context: Context, intent: Intent) {
 
 ## 5. Bidirectional Requests
 
-If one app needs to request data from the other (instead of just waiting for an update), it can send a "Request" broadcast which the other app responds to using the same bridge pattern.
+If one app needs to request data from the other (instead of just waiting for an update), it can send a "Request" broadcast which the other app responds to using the same bridge pattern. This is commonly used in [Quick Settings Tiles](../services/qs-tiles.md) to refresh status when the tile is expanded.
 
 ### Request Pattern
 1. `essentials` sends `ACTION_REQUEST_MAC_BATTERY`.

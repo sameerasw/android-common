@@ -35,6 +35,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Language Switching](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/languages.md)**
     - **[App Selection Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/app-picker.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
+  - [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md)
 - **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
 
 ## Getting Started

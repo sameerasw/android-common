@@ -9,6 +9,10 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Edge-to-Edge](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)**
     - **[Progressive Blur](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/progressive-blur.md)**
   - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable UI components.
+    - **[Containers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/)**: Layout wrappers.
+      - [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md)
+    - **[Cards & Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/)**: List items and feature cards.
+      - [List Item Variants](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md)
     - **[Toolbars](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/)**: Variants of top and bottom bars.
       - [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md)
       - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)

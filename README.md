@@ -27,6 +27,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - [Deep Search Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/search/deep-search.md)
   - **[services/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/)**: Background services and system integrations.
     - [Quick Settings Tiles](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/qs-tiles.md)
+    - [In-App Updates](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/updates.md)
   - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.
     - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.

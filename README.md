@@ -14,6 +14,10 @@ A collection of unique and frequently used UI components, logic, and patterns fo
       - [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md)
     - **[Cards & Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/)**: List items and feature cards.
       - [List Item Variants](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md)
+    - **[Bottom Sheets](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/)**: Modal overlays and guides.
+      - [General Layout](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/general-layout.md)
+      - [Help & Guides](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/help-guide-sheet.md)
+      - [Feature Info](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/feature-info-sheet.md)
     - **[Toolbars](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/)**: Variants of top and bottom bars.
       - [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md)
       - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)

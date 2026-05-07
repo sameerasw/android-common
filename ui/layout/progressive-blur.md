@@ -2,6 +2,8 @@
 
 This guide covers the implementation of a high-performance progressive blur effect using AGSL (Android Graphics Shading Language), including device-specific optimizations and power-saving considerations.
 
+<img width="1672" height="432" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  23 35@2x" src="https://github.com/user-attachments/assets/d889c592-31aa-4cca-99c8-b22986063490" />
+
 ## 1. AGSL Shader (Progressive Blur)
 
 The progressive blur uses a custom jittered-sampling algorithm to create a smooth transition from clear to blurred.

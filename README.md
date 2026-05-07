@@ -37,6 +37,8 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[App Selection Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/app-picker.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
   - [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md)
+- **[accessibility/](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/)**: System-level interaction patterns.
+  - [Accessibility Overlays](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/accessibility-overlays.md)
 - **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
 
 ## Getting Started

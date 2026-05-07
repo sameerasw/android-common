@@ -2,6 +2,9 @@
 
 A contextual bottom sheet used to explain specific features, their purpose, and their required permissions.
 
+<img width="836" height="824" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  14 47@2x" src="https://github.com/user-attachments/assets/e6d6dd4c-5cd1-4602-a86b-c4efdb372ec3" />
+
+
 ## 1. Adaptive Header
 
 The header reuses the **Pastel Icon** pattern from the [Feature Card](../cards/list-items.md) to maintain visual continuity.

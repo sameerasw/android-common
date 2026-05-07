@@ -2,6 +2,8 @@
 
 A high-level navigation strategy using `HorizontalPager` to allow users to switch between main app sections with fluid, natural gestures.
 
+<img width="500" height="1111" alt="screen-20260507-162702-1778151413090" src="https://github.com/user-attachments/assets/75706079-c064-43ab-b2d4-940397a31f21" />
+
 ## 1. Implementation (`HorizontalPager`)
 
 The core of swipe navigation is the `HorizontalPager` from the Foundation library. It manages the page state and handles the touch gestures.

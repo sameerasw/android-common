@@ -14,6 +14,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
       - [Rounded Card Container](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/rounded-card-container.md)
     - **[Cards & Items](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/)**: List items and feature cards.
       - [List Item Variants](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/cards/list-items.md)
+    - **[About & Community](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/about.md)**: App info and developer credits.
     - **[Bottom Sheets](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/)**: Modal overlays and guides.
       - [General Layout](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/general-layout.md)
       - [Help & Guides](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/help-guide-sheet.md)
@@ -30,6 +31,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - [In-App Updates](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/services/updates.md)
   - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.
     - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
+    - **[Developer Mode](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/developer-mode.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
 - **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
 

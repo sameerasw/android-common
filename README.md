@@ -33,6 +33,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
     - **[Developer Mode](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/developer-mode.md)**
     - **[Language Switching](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/languages.md)**
+    - **[App Selection Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/app-picker.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
 - **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
 

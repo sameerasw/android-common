@@ -11,6 +11,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - [Splash Screen Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/splash.md)
     - [Welcome & Onboarding](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/welcome.md)
     - [Swipe Navigation Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/swipe-navigation.md)
+    - [App Menu Shortcuts](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/app-menu-shortcuts.md)
   - **[Theming & AMOLED](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme.md)**
   - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable Material 3 components.
     - **[Containers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/containers/)**: Layout wrappers.

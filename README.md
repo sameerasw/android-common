@@ -41,6 +41,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Media Playback Info](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/media-playback.md)**
     - **[Shell Command Execution](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/shell-cmd.md)**
     - **[WearOS Communication](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/wearos.md)**
+    - **[Backup & Restore](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/backup-restore.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
   - [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md)
 - **[accessibility/](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/)**: System-level interaction patterns.

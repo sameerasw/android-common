@@ -15,6 +15,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
   - **[theme/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme/)**: Design system and theming guides.
 - **[logic/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/)**: Business logic and utility patterns.
   - **[utils/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/)**: Common utility functions.
+    - **[Haptic Feedback](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/haptics.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
 - **[data/](file:///Users/sameerasandakelum/GIT/jetpack-common/data/)**: Data persistence and migration patterns.
 

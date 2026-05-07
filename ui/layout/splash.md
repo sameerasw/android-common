@@ -2,6 +2,8 @@
 
 A comprehensive guide to implementing the modern Android Splash Screen API with custom exit animations and branding.
 
+<img width="500" height="1111" alt="screen-20260507-162433-1778151268818" src="https://github.com/user-attachments/assets/862e7cb3-2f53-49c0-a780-eb440ab7ef80" />
+
 ## 1. Branding & Configuration
 
 The splash screen is configured using a specialized theme that inherits from `Theme.SplashScreen`.

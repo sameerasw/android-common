@@ -2,6 +2,8 @@
 
 A flexible theming system based on **Material 3 Expressive**, supporting Dynamic Color (Monet) and a specialized "Pitch Black" mode for AMOLED displays.
 
+<img width="320" height="209" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  31 04@2x Medium" src="https://github.com/user-attachments/assets/01aca0a5-9190-47e1-a44a-a999b339ad34" />
+
 ## 1. Material 3 Dynamic Color
 
 The app utilizes `dynamicDarkColorScheme` and `dynamicLightColorScheme` on Android 12+ (SDK 31) to match the system's wallpaper-based colors.

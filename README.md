@@ -35,6 +35,7 @@ A collection of unique and frequently used UI components, logic, and patterns fo
     - **[Developer Mode](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/developer-mode.md)**
     - **[Language Switching](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/languages.md)**
     - **[App Selection Picker](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/app-picker.md)**
+    - **[Flashlight & Brightness](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/utils/flashlight.md)**
 - **[permissions/](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/)**: Permission handling strategies.
   - [Shizuku Integration](file:///Users/sameerasandakelum/GIT/jetpack-common/permissions/shizuku.md)
 - **[accessibility/](file:///Users/sameerasandakelum/GIT/jetpack-common/accessibility/)**: System-level interaction patterns.

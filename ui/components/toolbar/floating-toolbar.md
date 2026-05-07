@@ -2,6 +2,9 @@
 
 A highly adaptive and animated floating bottom toolbar designed for modern Jetpack Compose applications. It supports two primary modes: Tabbed navigation and Standard action bar.
 
+<img width="1004" height="404" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  11 50@2x" src="https://github.com/user-attachments/assets/4d126e75-0ada-444f-8967-92529298a639" />
+
+
 ## Features
 
 - **Tabbed Mode**: Animated expanding labels for the selected item.

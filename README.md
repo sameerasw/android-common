@@ -5,7 +5,9 @@ A collection of unique and frequently used UI components, logic, and patterns fo
 ## Project Structure
 
 - **[ui/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/)**: UI related documentation and components.
-  - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: Layout patterns like Edge-to-Edge.
+  - **[layout/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/)**: Layout patterns.
+    - **[Edge-to-Edge](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/edge-to-edge.md)**
+    - **[Progressive Blur](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/layout/progressive-blur.md)**
   - **[components/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/)**: Reusable UI components.
   - **[theme/](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/theme/)**: Design system and theming guides.
 - **[logic/](file:///Users/sameerasandakelum/GIT/jetpack-common/logic/)**: Business logic and utility patterns.

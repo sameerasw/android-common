@@ -6,6 +6,8 @@ Premium UI components used to display application information, developer credits
 
 A centralized component that displays the app version, a description, and the developer's avatar. It also includes a `FlowRow` of social and support buttons.
 
+<img width="596" height="740" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  18 28@2x" src="https://github.com/user-attachments/assets/81e4afeb-bb6c-48f4-8cfb-8f91df5a8946" />
+
 ### Key Features
 - **Version Detection**: Automatically fetches `versionName` from the package manager.
 - **Developer Avatar**: Uses a `clip(RoundedCornerShape(16.dp))` image.
@@ -28,6 +30,8 @@ Image(
 ## 2. MadebySameerasw Community Card
 
 A visually rich promotional card for the developer's community.
+
+<img width="600" height="412" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  18 53@2x" src="https://github.com/user-attachments/assets/c788931b-104f-479b-9a39-ee2c7d624a6e" />
 
 ### Design Elements
 - **Overlapping Avatar**: A `CircleShape` avatar that overlaps the banner image using an `offset(y = 32.dp)`.

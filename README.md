@@ -21,6 +21,8 @@ A collection of unique and frequently used UI components, logic, and patterns fo
       - [General Layout](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/general-layout.md)
       - [Help & Guides](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/help-guide-sheet.md)
       - [Feature Info](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/sheets/feature-info-sheet.md)
+    - **[Pickers](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/pickers/)**: Selection components.
+      - [Segmented Picker Pattern](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/pickers/picker.md)
     - **[Toolbars](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/)**: Variants of top and bottom bars.
       - [Floating Toolbar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/floating-toolbar.md)
       - [Top App Bar](file:///Users/sameerasandakelum/GIT/jetpack-common/ui/components/toolbar/top-app-bar.md)

@@ -2,6 +2,9 @@
 
 A premium, interactive selection component based on **Material 3 Expressive** design, used for toggling between a small set of options (e.g., Haptic intensities, Language modes, or Theme styles).
 
+<img width="608" height="298" alt="CleanShot-scrcpy-Sameera Pixel 7-20260507-4  15 41@2x" src="https://github.com/user-attachments/assets/c93cd1fb-b8b2-4596-b752-82d083b0d2c3" />
+
+
 ## 1. Core Component (`SegmentedPicker`)
 
 The `SegmentedPicker` uses a connected button group aesthetic where multiple `ToggleButton` components are joined together to form a single cohesive "pill".

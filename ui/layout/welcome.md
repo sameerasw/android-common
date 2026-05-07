@@ -2,6 +2,8 @@
 
 A multi-step, animated onboarding experience designed to guide users through initial setup, preferences, and feature education.
 
+<img width="356" height="792" alt="screen-20260507-162920-1778151549679" src="https://github.com/user-attachments/assets/190e0f3c-b566-4563-8831-1544be1d6234" />
+
 ## 1. Onboarding Flow
 
 The system uses an `OnboardingStep` enum to manage the state of the wizard. Transitions between steps are animated using `AnimatedContent` with horizontal slide-and-fade effects.

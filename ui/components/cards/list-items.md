@@ -58,7 +58,26 @@ Box(
 }
 ```
 
-## 3. Implementation Logic
+## 3. List Expand Toggle Button (`ListExpandToggleButton`)
+
+A left-aligned, card-styled toggle button used to expand or collapse long lists (such as app drain lists or history items).
+
+### Key Features
+- **Card-Matched Styling**: Uses `surfaceBright` container color and `Shapes.extraSmall` corner shape matching surrounding card containers.
+- **Rotating Chevron**: Features a leading `rounded_keyboard_arrow_down_24` icon that smoothly rotates 180 degrees using `animateFloatAsState`.
+- **Haptic Integration**: Automatically executes `HapticUtil.performVirtualKeyHaptic` on click.
+
+### Usage
+```kotlin
+ListExpandToggleButton(
+    isExpanded = showAllApps,
+    onToggle = { showAllApps = !showAllApps },
+    expandedText = "Show only top apps",
+    collapsedText = "Show all"
+)
+```
+
+## 4. Implementation Logic
 
 ### Color Utility
 Used to generate consistent colors from any string or ID.

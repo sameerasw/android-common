@@ -18,6 +18,7 @@ A centralized knowledge base of architectural patterns and reusable UI component
       - [Rounded Card Container](ui/components/containers/rounded-card-container.md)
     - **[Cards & Items](ui/components/cards/)**: List items and feature cards.
       - [List Item Variants](ui/components/cards/list-items.md)
+      - [Expandable Section Toggle Button](ui/components/cards/list-expand-toggle-button.md)
     - **[About & Community](ui/components/about.md)**: App info and developer credits.
     - **[Bottom Sheets](ui/components/sheets/)**: Modal overlays and guides.
       - [General Layout](ui/components/sheets/general-layout.md)

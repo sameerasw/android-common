@@ -12,13 +12,18 @@ This guide covers the implementation of adaptive edge-to-edge support in Jetpack
 ## Implementation Steps
 
 ### 1. Enable Edge-to-Edge in Activity
-Add `enableEdgeToEdge()` before `setContent` in your Activity's `onCreate`.
+Call `enableEdgeToEdge()` in your Activity's `onCreate` before `super.onCreate` (or immediately before `setContent`).
 
 ```kotlin
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        val splashScreen = installSplashScreen()
         enableEdgeToEdge()
+        super.onCreate(savedInstanceState)
         setContent {
             MyTheme {
                 // Content
@@ -27,6 +32,12 @@ class MainActivity : ComponentActivity() {
     }
 }
 ```
+
+> [!IMPORTANT]
+> **Android 15+ (SDK 35) Deprecations**:
+> - Do **not** use `WindowCompat.setDecorFitsSystemWindows(window, false)` — use `enableEdgeToEdge()` instead.
+> - Do **not** set `android:statusBarColor` or `android:navigationBarColor` in `themes.xml` (deprecated in Android 15). Keep them managed automatically by `enableEdgeToEdge()`.
+> - Do **not** restrict `android:screenOrientation="portrait"` on activities unless strictly required (Android 16 ignores orientation restrictions on large screen / foldable devices).
 
 ### 2. Update Manifest
 Add `android:windowSoftInputMode="adjustResize"` to your Activity in `AndroidManifest.xml` to handle the IME correctly.
@@ -114,8 +125,11 @@ Dialog(
 ```
 
 ## Checklist
-- [ ] `enableEdgeToEdge()` called in Activity.
-- [ ] `adjustResize` set in Manifest.
+- [ ] `enableEdgeToEdge()` called in Activity before `super.onCreate` / `setContent`.
+- [ ] No deprecated `WindowCompat.setDecorFitsSystemWindows()` used.
+- [ ] No `android:statusBarColor` or `android:navigationBarColor` defined in `themes.xml`.
+- [ ] `adjustResize` set in Manifest for IME resizing.
 - [ ] Lists use `contentPadding` for insets.
 - [ ] TextFields handle `imePadding`.
 - [ ] Bottom bars have `isNavigationBarContrastEnforced = false` if applicable.
+- [ ] No unnecessary `android:screenOrientation="portrait"` locks for Android 16 large-screen support.

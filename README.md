@@ -12,6 +12,7 @@ A centralized knowledge base of architectural patterns and reusable UI component
     - [Swipe Navigation Pattern](ui/layout/swipe-navigation.md)
     - [App Menu Shortcuts](ui/layout/app-menu-shortcuts.md)
     - [Progressive Blur Implementation](ui/layout/progressive-blur.md)
+    - [Liquid Ripple AGSL Shader](ui/layout/liquid-ripple.md)
   - **[Theming & AMOLED](ui/theme.md)**
   - **[components/](ui/components/)**: Reusable Material 3 components.
     - **[Containers](ui/components/containers/)**: Layout wrappers.
